@@ -84,7 +84,7 @@ if (!isset($_SESSION['username'])) {header('location: logout.php');}
     <div class="d-flex justify-content-center">
         <nav class="navbar bg-body-tertiary">
             <form class="container-fluid justify-content-start">
-                <a href="homepage.php"><button class="btn btn-outline-success me-2" type="button">HOME</button></a>
+                <a href="index.php"><button class="btn btn-outline-success me-2" type="button">HOME</button></a>
                 <a href="men.php"> <button class="btn btn-outline-success me-2" type="button">MEN</button></a>
                 <a href="women.php"><button class="btn btn-outline-success me-2" type="button">WOMEN</button></a>
                 <?php 
@@ -120,7 +120,7 @@ if (!isset($_SESSION['username'])) {header('location: logout.php');}
         if($num==0){
             echo '<div align="center">';
             echo '<h1>Cart is empty</h1>';
-            echo '<a href="homepage.php"> <button class="btn btn-outline-success me-2" type="button">Go to home</button></a>';
+            echo '<a href="index.php"> <button class="btn btn-outline-success me-2" type="button">Go to home</button></a>';
             echo '</div>';
 
 

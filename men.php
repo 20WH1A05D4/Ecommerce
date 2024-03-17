@@ -85,7 +85,7 @@ if (!isset($_SESSION['username'])) {header('location: logout.php');}
     <div class="d-flex justify-content-center">
         <nav class="navbar bg-body-tertiary">
             <form class="container-fluid justify-content-start">
-                <a href="homepage.php"><button class="btn btn-outline-success me-2" type="button">HOME</button></a>
+                <a href="index.php"><button class="btn btn-outline-success me-2" type="button">HOME</button></a>
                 <a href="men.php"> <button class="btn btn-outline-success me-2" type="button">MEN</button></a>
                 <a href="women.php"><button class="btn btn-outline-success me-2" type="button">WOMEN</button></a>
                 <a href="cart.php"><button class="btn btn-outline-success me-2" type="button">CART</button></a>
