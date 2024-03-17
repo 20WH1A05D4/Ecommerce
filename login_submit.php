@@ -41,7 +41,7 @@ $num = mysqli_num_rows($result);
     $_SESSION['role']='admin';
     header('location: admin.php');
   } else {
-    header('location: homepage-1.php');
+    header('location: index.php');
   }
 //}
 ?>

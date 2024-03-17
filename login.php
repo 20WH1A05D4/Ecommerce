@@ -89,7 +89,7 @@ button:hover {
 <?php
 require("database.php");
 if (isset($_SESSION['username'])) {
-    header('location: homepage.php');
+    header('location: index.php');
 }
 ?>
     <div class="container">
@@ -107,7 +107,7 @@ if (isset($_SESSION['username'])) {
 
             <button type="submit">Login</button>
 
-            <p class="signup-link">Don't have an account? <a href="signup.html">Sign Up</a></p>
+            <p class="signup-link">Don't have an account? <a href="signup.php">Sign Up</a></p>
         </form>
     </div>
     

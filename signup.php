@@ -97,7 +97,7 @@ if (isset($_SESSION['email'])) {
 
             <button type="submit">Sign Up</button>
 
-            <p class="login-link">Already have an account? <a href="login.html">Login</a></p>
+            <p class="login-link">Already have an account? <a href="login.php">Login</a></p>
         </form>
     </div>
 </body>

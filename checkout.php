@@ -49,7 +49,7 @@ while ($row = mysqli_fetch_array($result)) {
         $result = mysqli_query($conn, $query);
         echo '<script>
                 alert("order placed successfully");
-                window.location = "homepage.php";
+                window.location = "index.php";
 
                 </script>
             ';
