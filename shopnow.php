@@ -20,7 +20,7 @@ if ($conn->connect_error) {
 
 // Extract endpoint and additional parameters from the request URL
  $request_uri = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
- $endpoint = isset($request_uri[3]) ? $request_uri[3] : '';
+ $endpoint = isset($request_uri[1]) ? $request_uri[1] : '';
  $method = $_SERVER['REQUEST_METHOD'];
  echo $endpoint;
 // //$additional_params = array_slice($request_uri, 3);
